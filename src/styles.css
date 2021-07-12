@@ -1,0 +1,71 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  /* background-color: #DEE4E7; */
+}
+body {
+  background-color: #374151;
+}
+h1 {
+  background: linear-gradient(to right, #f32170,
+  #ff6b08, #cf23cf, #eedd44);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+  font-size: 84px;
+  font-weight: 700;
+  margin: -7px 0;
+}
+p {
+  color: #D1D5DB;
+}
+
+.beauty-types {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 40%;
+  margin: auto;
+}
+
+.flex-div {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e5e7eb;
+  /* width: 80%; */
+  padding: 0.5px 20px;
+  background: radial-gradient(
+      33.05% 1230.22% at 50% 50%,
+      rgba(112, 234, 154, 0.4) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #242625;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  margin: 20px auto;
+  border: 0.5px rgba(0, 0, 0, 0.26) solid;
+  border-radius: 10px;
+  background-size: 20%;
+}
+.flex-div-cover {
+  margin: 30px auto;
+  /* border-radius: 25px;
+  border: 1px black solid; */
+  width: 40%;
+}
+@media (max-width: 930px) {
+  .flex-div-cover {
+    width: 80%;
+  }
+  .travel-types-wrapper {
+    width: 80%;
+  }
+}
+span {
+  background-color: #242424;
+  color: #BE185D;
+  font-weight: bold;
+}
+.active {
+  background-color: #FEE2E2;
+}
